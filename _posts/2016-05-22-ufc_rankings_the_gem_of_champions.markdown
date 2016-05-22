@@ -16,13 +16,13 @@ Getting started was the hardest part of this project for me. I'm used to working
 
 **So, how does ufc_rankings work?**
 First, it scrapes the UFC site for rankings in each weight class, as well as their pound for pound rankings, storing the fighters in an array for each weight class. Each weight class has a method uses the data stored in that weight class array to create a ranking list for that class. The CLI shows the user each weightclass and prompts them to select the weight class they'd like to see rankings of. The user input is what determines what weight class method to activate. I decided to go with a case method for this: 
-```
-    case num
-    when 1
-      puts "Pound for Pound Rankings"
-      UfcRankings::Rankings.p4p
-```
 
-(<iframe width="420" height="315" src="https://www.youtube.com/embed/9OXF5uL5I2E" frameborder="0" allowfullscreen></iframe>)
-If you're a fan of the UFC you might want to check out my gem.
+   `case num`
+
+   ` when 1`
+     ` puts "Pound for Pound Rankings"`
+      `UfcRankings::Rankings.p4p`
+
+
+If you're a fan of the UFC you might want to check out my gem. Here's a quick video [walkthrough](https://www.youtube.com/watch?v=9OXF5uL5I2E&feature=youtu.be). 
 
