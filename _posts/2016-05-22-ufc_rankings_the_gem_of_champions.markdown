@@ -20,7 +20,9 @@ First, it scrapes the UFC site for rankings in each weight class, as well as the
    `case num`
 
    ` when 1`
+   
      ` puts "Pound for Pound Rankings"`
+     
       `UfcRankings::Rankings.p4p`
 
 
