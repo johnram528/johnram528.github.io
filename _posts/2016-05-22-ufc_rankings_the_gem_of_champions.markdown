@@ -15,15 +15,8 @@ Getting started was the hardest part of this project for me. I'm used to working
 * **Working Backwards**- The first point was what I think is the best advice on creating gem's, but this next point is what has been the most meaningful thing I've learned in my short time coding - Work Backwards. Before watching the Daily Deal video, I started by creating all the folders and files I thought I'd need from scratch. Once I had my folders set up I decided that the first place I'd start with my code was in my scraper class. I would then build my other classes, cli and finally my executable. My quick frustration and lack of a sense of direction is what led me to the Avi's video, and his method of keeping things simple. Avi advocated started with the one line of code in the executable, and using pseudocode to make it work. Once the code works, you can replace the psuedocode with your actual code. This singlehandedly changed my energy on this project, and the work was so much fun. 
 
 **So, how does ufc_rankings work?**
-First, it scrapes the UFC site for rankings in each weight class, as well as their pound for pound rankings, storing the fighters in an array for each weight class. Each weight class has a method uses the data stored in that weight class array to create a ranking list for that class. The CLI shows the user each weightclass and prompts them to select the weight class they'd like to see rankings of. The user input is what determines what weight class method to activate. I decided to go with a case method for this: 
+First, it scrapes the UFC site for rankings in each weight class, as well as their pound for pound rankings, storing the fighters in an array for each weight class. Each weight class has a method uses the data stored in that weight class array to create a ranking list for that class. The CLI shows the user each weightclass and prompts them to select the weight class they'd like to see rankings of. The user input is what determines what weight class method to activate. 
 
-   `case num`
-
-   ` when 1`
-   
-     ` puts "Pound for Pound Rankings"`
-     
-      `UfcRankings::Rankings.p4p`
 
 
 If you're a fan of the UFC you might want to check out my gem. Here's a quick video [walkthrough](https://www.youtube.com/watch?v=9OXF5uL5I2E&feature=youtu.be). 
