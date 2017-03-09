@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Fitbook App and Serialization"
-date:   2017-03-09 20:07:27 +0000
+date:   2017-03-09 15:07:28 -0500
 ---
 
 
-Intro
 
 In my last post I talked about the fitness app I built on rails. This post will discuss a few things I discovered while adding Jquery and AJAX to my existing fitness app. This project is another example of something I visualized being very simple, turning into a very frustrating experience at times, but ultimately a great learning experience. I really thought I could add all the Jquery and AJAX in an hour or two, but it ended up taking two days, with a lot of long walks and meditation sessions(curling up in a ball on my couch) in between. However, as always, I'm grateful for the challenge and walked away with some cool new tricks, one of which I'll be discussing below. 
 
