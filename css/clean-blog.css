@@ -215,6 +215,13 @@ hr.small {
     font-size: 30px;
   }
 }
+.post-preview {
+  border-style: groove;
+  border-width: 1px;
+  border-color: #dfdcea;  
+  border-radius: 10px;
+  padding: 10px;  
+}
 .post-preview > a {
   color: #404040;
 }
@@ -242,6 +249,7 @@ hr.small {
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #404040;
+
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
