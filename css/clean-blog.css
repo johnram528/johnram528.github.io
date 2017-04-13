@@ -220,6 +220,7 @@ hr.small {
   border-width: 1px;
   border-color: #dfdcea;  
   border-radius: 10px;
+  background-color: #f7f7f7;
   padding: 10px;  
 }
 .post-preview > a {
