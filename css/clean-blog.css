@@ -447,3 +447,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#headShot {
+  position: relative;
+  padding: 20px;
+  border-radius:160px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.headShot:hover{
+  filter: drop-shadow(8px 8px 10px black) grayscale(.5)
+  
+}
+
+.headShot {
+  position: relative;
+}
+.headShot-content {
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  right: 1%;
+  background-color: ##404040;
+  padding: .5em;
+}
+.headShot:hover .headShot-content {
+  display: block;
+}

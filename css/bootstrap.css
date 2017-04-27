@@ -1410,9 +1410,10 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding: 1px;
-  margin: 40px 0 20px;
+  padding: 10px;
+  margin: 4px 0 20px;
   border-bottom: 1px solid #eee;
+  background-color: #404040
 
 
 }
