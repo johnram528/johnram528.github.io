@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Uploading Videos with Rails and React pt. 2"
-date:   2017-04-11 17:50:56 +0000
+date:   2017-04-11 13:50:57 -0400
 ---
 
 
-Intro
+
 In my last [post](http://ramoswebdev.com/2017/04/07/uploading_videos_with_rails_and_react_pt_1/) I walked through the process of handling video uploads through your Rails API. However, you still need a way to send the video from the client-side using, React, so that's what I'll be covering in this post. This can be a little tricky if you've never uploaded attachments through React, since you might be used to sending post request as JSON objects to your server. There are a few things we have to do differently, since we're sending a multi-part request, but once this is clear, it should be pretty straightforward. Throughout the post I'll be refering to the video [platform](https://github.com/johnram528) I recently built using React and Rails. 
 State
 In my project I had 3 main components: VideosPage, VideosShow, and VideosNew. I won't be discussing the first two components, the component that deals with video upload logic is VideosNew. If you can get your videos to upload to the API, then your other components should easy. In my project I'm using Redux, but the VideosNew component is the only place where I'm directly setting state. 
