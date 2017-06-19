@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 ---
-
+<h1 class='indexTitle'>Articles</h1>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a class='bg-warning' href="{{ post.url | prepend: site.baseurl }}">
@@ -14,7 +14,7 @@ title: Blog
         </h3>
         {% endif %}
     </a>
-    {{ post.excerpt }}
+    {{ post.excerpt | truncatewords:65 }}
     <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>

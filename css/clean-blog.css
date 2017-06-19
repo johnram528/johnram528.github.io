@@ -215,6 +215,10 @@ hr.small {
     font-size: 30px;
   }
 }
+.page-title {
+  font-size: 30px;
+
+}
 .post-preview {
   border-style: groove;
   border-width: 1px;
@@ -225,6 +229,9 @@ hr.small {
 }
 .post-preview > a {
   color: #404040;
+}
+.post-preview > p {
+  font-size: 18px;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -250,8 +257,8 @@ hr.small {
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #404040;
-
 }
+
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
   color: #0085a1;
@@ -259,7 +266,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 22px;
   }
 }
 .section-heading {
@@ -454,11 +461,12 @@ body {
   border-radius:160px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 
 }
 
 .headShot:hover{
-  filter: drop-shadow(8px 8px 10px black) grayscale(.5)
+  filter: drop-shadow(8px 8px 10px black) grayscale(.5);
   
 }
 
@@ -476,4 +484,9 @@ body {
 }
 .headShot:hover .headShot-content {
   display: block;
+}
+
+.indexTitle {
+  font-size: 30px;
+  margin-bottom: 50px;
 }
